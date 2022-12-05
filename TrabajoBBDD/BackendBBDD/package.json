@@ -1,0 +1,22 @@
+{
+  "name": "trabajobbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "dev": "nodemon ."
+  },
+  "author": "Gerson Martinez Letelier",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "apollo-server": "^3.10.3",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^16.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.6.5"
+  }
+}
