@@ -45,7 +45,8 @@ input UsuarioUpdateInput {
 type Turno{
     id: ID
     turno_hora: String
-    descripcion: String,
+    descripcion: String
+    fechaCreacion: String
     usuario: Usuario
 }
 
